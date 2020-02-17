@@ -1,11 +1,11 @@
 category: "Create Validator"
-name: "CV1"
-goal: "Create Validator"
+name: "CV2"
+goal: "Validator Address != Sender Address"
 priority: 0
 execute: true
-expected: true
+expected: false
 verbose: true
-scenario: "staking/create_validator"
+scenario: "staking/create_validator_invalid_address"
 staking_parameters:
   from_shard_id: 0
   to_shard_id: 0

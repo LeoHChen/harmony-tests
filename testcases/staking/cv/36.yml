@@ -1,9 +1,9 @@
 category: "Create Validator"
-name: "CV1"
-goal: "Create Validator"
+name: "CV36"
+goal: "Amount > MaxTotalDelegation"
 priority: 0
 execute: true
-expected: true
+expected: false
 verbose: true
 scenario: "staking/create_validator"
 staking_parameters:
@@ -20,9 +20,9 @@ staking_parameters:
     rate: 0.1
     max_rate: 0.5
     max_change_rate: 0.05
-  amount: 10
+  amount: 100
   minimum_self_delegation: 5
-  maximum_total_delegation: 1000
+  maximum_total_delegation: 10
   bls_key_count: 1
   nonce: -1 # -1 means that the nonce will automatically be identified
   confirmation_wait_time: 60

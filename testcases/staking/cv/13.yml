@@ -1,6 +1,6 @@
 category: "Create Validator"
-name: "CV1"
-goal: "Create Validator"
+name: "CV13"
+goal: "Details == 280 characters"
 priority: 0
 execute: true
 expected: true
@@ -15,7 +15,7 @@ staking_parameters:
     identity: "MrBubz"
     website: "https://i.imgur.com/G6Mruca.jpg"
     security_contact: "Bubz Hacker Legion"
-    details: "https://www.youtube.com/watch?v=QQNL83fhWJU"
+    details: "BubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubz"
   commission:
     rate: 0.1
     max_rate: 0.5

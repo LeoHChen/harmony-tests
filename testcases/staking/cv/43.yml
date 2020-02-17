@@ -1,12 +1,13 @@
 category: "Create Validator"
-name: "CV1"
-goal: "Create Validator"
+name: "CV43"
+goal: "Duplicate bls keys (self)"
 priority: 0
 execute: true
-expected: true
+expected: false
 verbose: true
 scenario: "staking/create_validator"
 staking_parameters:
+  mode: "duplicate_bls_key"
   from_shard_id: 0
   to_shard_id: 0
   generate: false

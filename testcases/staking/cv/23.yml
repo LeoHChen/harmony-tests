@@ -1,9 +1,9 @@
 category: "Create Validator"
-name: "CV1"
-goal: "Create Validator"
+name: "CV23"
+goal: "Commission rate < 0"
 priority: 0
 execute: true
-expected: true
+expected: false
 verbose: true
 scenario: "staking/create_validator"
 staking_parameters:
@@ -17,7 +17,7 @@ staking_parameters:
     security_contact: "Bubz Hacker Legion"
     details: "https://www.youtube.com/watch?v=QQNL83fhWJU"
   commission:
-    rate: 0.1
+    rate: -0.1
     max_rate: 0.5
     max_change_rate: 0.05
   amount: 10

@@ -1,6 +1,6 @@
 category: "Create Validator"
-name: "CV1"
-goal: "Create Validator"
+name: "CV9"
+goal: "Name == 140 characters"
 priority: 0
 execute: true
 expected: true
@@ -11,7 +11,7 @@ staking_parameters:
   to_shard_id: 0
   generate: false
   validator:
-    name: "Bubz"
+    name: "BubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubzBubz"
     identity: "MrBubz"
     website: "https://i.imgur.com/G6Mruca.jpg"
     security_contact: "Bubz Hacker Legion"

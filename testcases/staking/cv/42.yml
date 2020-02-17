@@ -1,9 +1,9 @@
 category: "Create Validator"
-name: "CV1"
-goal: "Create Validator"
+name: "CV42"
+goal: "Bls key signature not verifiable"
 priority: 0
 execute: true
-expected: true
+expected: false
 verbose: true
 scenario: "staking/create_validator"
 staking_parameters:
@@ -24,6 +24,7 @@ staking_parameters:
   minimum_self_delegation: 5
   maximum_total_delegation: 1000
   bls_key_count: 1
+  bls_signature_message: "BUBZBUBZBUBZBUBZBUBZ"
   nonce: -1 # -1 means that the nonce will automatically be identified
   confirmation_wait_time: 60
   gas:

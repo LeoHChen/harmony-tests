@@ -1,9 +1,9 @@
 category: "Create Validator"
-name: "CV1"
-goal: "Create Validator"
+name: "CV8"
+goal: "Details longer than 280 characters"
 priority: 0
 execute: true
-expected: true
+expected: false
 verbose: true
 scenario: "staking/create_validator"
 staking_parameters:
@@ -13,9 +13,9 @@ staking_parameters:
   validator:
     name: "Bubz"
     identity: "MrBubz"
-    website: "https://i.imgur.com/G6Mruca.jpg"
+    website: "https://www.instagram.com/p/B5bUv2JH8u6/"
     security_contact: "Bubz Hacker Legion"
-    details: "https://www.youtube.com/watch?v=QQNL83fhWJU"
+    details: "I would be remiss if I didnt participate in your species day of thanks! Although I am obliged to none of your species, I am feeling a tad grateful for those who have pledged their allegiance to their lord over this past human years pass!! To those who be faithful, find pleasure in the tasting of your fat fowls, let it be a reminder of those who shall decorate our table with their corpses in the future!! May their destruction pave our way to happiness!!! PRAISE BE TO MR BUBZ!!!"
   commission:
     rate: 0.1
     max_rate: 0.5
