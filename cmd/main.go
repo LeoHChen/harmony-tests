@@ -81,6 +81,11 @@ func main() {
 			Name:  "verbose",
 			Usage: "Enable more verbose output",
 		},
+
+		cli.BoolFlag{
+			Name:  "verbose-cli",
+			Usage: "Enable verbose output for go-sdk",
+		},
 	}
 
 	app.Action = func(context *cli.Context) error {
