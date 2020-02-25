@@ -5,7 +5,7 @@ priority: 0
 execute: true
 expected: true
 verbose: true
-scenario: "staking/create_validator_existing_bls_key"
+scenario: "staking/create/existing_bls_key"
 staking_parameters:
   from_shard_id: 0
   to_shard_id: 0

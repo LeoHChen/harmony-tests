@@ -5,7 +5,7 @@ priority: 0
 execute: true
 expected: false
 verbose: true
-scenario: "staking/edit_validator_invalid_address"
+scenario: "staking/edit/invalid_address"
 staking_parameters:
   from_shard_id: 0
   to_shard_id: 0

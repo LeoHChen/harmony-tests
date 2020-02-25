@@ -5,7 +5,7 @@ priority: 0
 execute: true
 expected: false
 verbose: true
-scenario: "staking/create_validator"
+scenario: "staking/create/standard"
 staking_parameters:
   mode: "duplicate_bls_key"
   from_shard_id: 0

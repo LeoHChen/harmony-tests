@@ -1,11 +1,11 @@
 category: "Edit Validator"
-name: "EV26"
-goal: "Add slot key"
+name: "EV27"
+goal: "Add slot key that already exists"
 priority: 0
 execute: true
 expected: false
 verbose: true
-scenario: "staking/edit_validator"
+scenario: "staking/edit/standard"
 staking_parameters:
   from_shard_id: 0
   to_shard_id: 0

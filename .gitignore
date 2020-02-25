@@ -20,3 +20,4 @@ dist/
 keys/
 cmd/main
 testcases_dump
+profile*.pdf
