@@ -2,8 +2,8 @@
 
 echo "Installing Harmony Tx Tests"
 rm -rf harmony-tests && curl -LOs http://tools.harmony.one.s3.amazonaws.com/release/linux-x86_64/harmony-tests/harmony-tests && chmod u+x harmony-tests
-[ ! -d testcases ] && curl -LOs http://tools.harmony.one.s3.amazonaws.com/release/linux-x86_64/harmony-tests/testcases.tar.gz && tar -xzf testcases.tar.gz && rm -rf testcases.tar.gz
-[ ! -f config.yml ] && curl -LOs https://raw.githubusercontent.com/SebastianJ/harmony-tests/master/config.yml
+rm -rf testcases && curl -LOs http://tools.harmony.one.s3.amazonaws.com/release/linux-x86_64/harmony-tests/testcases.tar.gz && tar -xzf testcases.tar.gz && rm -rf testcases.tar.gz
+rm -rf config.yml && curl -LOs https://raw.githubusercontent.com/SebastianJ/harmony-tests/master/config.yml
 mkdir -p keys/testnet
 echo "Harmony Tx Tests have now been downloaded!"
 echo ""
