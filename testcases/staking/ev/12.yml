@@ -5,7 +5,7 @@ priority: 0
 execute: true
 expected: true
 verbose: true
-scenario: "staking/edit/standard"
+scenario: "staking/validator/edit/standard"
 staking_parameters:
   from_shard_id: 0
   to_shard_id: 0
