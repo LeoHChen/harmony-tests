@@ -1,6 +1,6 @@
 category: "Delegate"
-name: "D4"
-goal: "Negative amount"
+name: "D10"
+goal: "Specify small gas limit to cause 'txn out of gas'"
 priority: 0
 execute: true
 expected: false
@@ -31,4 +31,7 @@ staking_parameters:
     bls_key_count: 1
   delegation:
     delegate:
-      amount: -100
+      amount: 1
+      gas:
+        limit: 1
+        price: 1

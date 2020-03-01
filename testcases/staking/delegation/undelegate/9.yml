@@ -1,11 +1,11 @@
-category: "Delegate"
-name: "D4"
-goal: "Negative amount"
+category: "Undelegate"
+name: "U9"
+goal: "Specify small gas limit to cause 'txn out of gas'"
 priority: 0
 execute: true
 expected: false
 verbose: true
-scenario: "staking/delegation/delegate/standard"
+scenario: "staking/delegation/undelegate/standard"
 staking_parameters:
   from_shard_id: 0
   to_shard_id: 0
@@ -31,4 +31,6 @@ staking_parameters:
     bls_key_count: 1
   delegation:
     delegate:
+      amount: 100
+    undelegate:
       amount: -100

@@ -1,12 +1,13 @@
-category: "Delegate"
-name: "D4"
-goal: "Negative amount"
+category: "Create Validator"
+name: "CV43"
+goal: "Duplicate bls keys (self)"
 priority: 0
 execute: true
 expected: false
 verbose: true
-scenario: "staking/delegation/delegate/standard"
+scenario: "staking/validator/create/standard"
 staking_parameters:
+  mode: "duplicate_bls_key"
   from_shard_id: 0
   to_shard_id: 0
   nonce: -1 # -1 means that the nonce will automatically be identified
@@ -29,6 +30,3 @@ staking_parameters:
     minimum_self_delegation: 5
     maximum_total_delegation: 1000
     bls_key_count: 1
-  delegation:
-    delegate:
-      amount: -100
