@@ -16,7 +16,7 @@ parameters:
   amount: 1
   nonce: -1 # -1 means that the nonce will automatically get identified
   count: 1
-  confirmation_wait_time: 32
+  timeout: 32
   gas:
     limit: 5000000
     price: 1

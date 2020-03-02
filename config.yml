@@ -22,7 +22,7 @@ funding:
     address: ""
   shards: "all"
   minimum_funds: 10.0
-  confirmation_wait_time: 60
+  timeout: 60
   attempts: 3
   gas:
     cost: 0.0001
