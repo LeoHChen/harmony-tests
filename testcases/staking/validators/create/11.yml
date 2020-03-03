@@ -17,7 +17,7 @@ staking_parameters:
   create:
     validator:
       details:
-        name: "Bubz"
+        name: "CV11_Validator"
         identity: "MrBubz"
         website: "https://mrbubzsinsanelyawesomewebsitethatisfortunatelyexactlyhowlongawebsiteURLcanbeinordertocreateavalidatoronHarmonyssolidafblockchain.com"
         security_contact: "Bubz Hacker Legion"
