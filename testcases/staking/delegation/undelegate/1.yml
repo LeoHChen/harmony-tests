@@ -18,7 +18,7 @@ staking_parameters:
   create:
     validator:
       details:
-        name: "Bubz"
+        name: "U1_Validator"
         identity: "MrBubz"
         website: "https://i.imgur.com/G6Mruca.jpg"
         security_contact: "Bubz Hacker Legion"
