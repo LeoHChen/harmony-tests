@@ -19,8 +19,21 @@ e.g. for testnet -> `cp -r keystore-folder keys/testnet`
 
 Harmony TF will automatically identify keyfiles no matter what you call the folders or what the files are called - as long as they reside under `keys/testnet` (or whatever network you're using) they'll be identified.
 
-Start the tx tester:
-`./harmony-tests`
+## Usage
+To run all test cases:
+`./harmony-tests --network NETWORK`
+
+Only run staking tests: `./harmony-tests --network NETWORK --test staking`
+Only run staking -> create validators: `./harmony-tests --network NETWORK --test staking/validators/create`
+Only run staking -> edit validators: `./harmony-tests --network NETWORK --test staking/validators/edit`
+Only run staking -> delegation: `./harmony-tests --network NETWORK --test staking/delegation/delegate`
+Only run staking -> undelegation: `./harmony-tests --network NETWORK --test staking/delegation/undelegate`
+
+Only run tx tests: `./harmony-tests --network NETWORK --test transactions`
+Only run tx -> cross app shard tests: `./harmony-tests --network NETWORK --test transactions/cross_app_shard`
+Only run tx -> cross beacon shard tests: `./harmony-tests --network NETWORK --test transactions/cross_beacon_shard`
+Only run tx -> same app shard tests: `./harmony-tests --network NETWORK --test transactions/same_app_shard`
+Only run tx -> same beacon shard tests: `./harmony-tests --network NETWORK --test transactions/same_beacon_shard`
 
 ## Writing test cases
 Test cases are defined as YAML files and are placed in testcases/ - see this folder for existing test cases and how to impelement test cases.
