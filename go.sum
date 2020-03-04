@@ -71,6 +71,8 @@ github.com/SebastianJ/harmony-sdk v0.0.0-20200302065913-42fb4d57d2e3 h1:W/YMLFSR
 github.com/SebastianJ/harmony-sdk v0.0.0-20200302065913-42fb4d57d2e3/go.mod h1:28f6D8n51BCKGLAq2oMi8dafxpbLxHYUsx7NQyr6x9w=
 github.com/SebastianJ/harmony-sdk v0.0.0-20200303041429-2b12ae103d7f h1:L5CdW4kRF5hEdj0RjWNlaCWVFKGUejqhChRp+qbe044=
 github.com/SebastianJ/harmony-sdk v0.0.0-20200303041429-2b12ae103d7f/go.mod h1:eSonY1V9xlWCdWJ/SSczFZp3gCv6vV2QQkwpT+3/4fU=
+github.com/SebastianJ/harmony-sdk v0.0.0-20200304025634-e26f981e3009 h1:Wxlz1VdS2XzK8ufQeMYv7goHiik0B2rIa6J2/O6uOfs=
+github.com/SebastianJ/harmony-sdk v0.0.0-20200304025634-e26f981e3009/go.mod h1:eSonY1V9xlWCdWJ/SSczFZp3gCv6vV2QQkwpT+3/4fU=
 github.com/SebastianJ/harmony-tf v0.0.0-20200205133721-3b2e2aa0db6e/go.mod h1:lUY+ZYq1JsxrLua5ceKKX3t5GVor0ljkvB4qKQb+nTs=
 github.com/SebastianJ/harmony-tf v0.0.0-20200209143518-dc1953850739 h1:8Z7wRiAsVO/5q8GZfrqbZWQj21URW5YsCo2l7agYpMI=
 github.com/SebastianJ/harmony-tf v0.0.0-20200209143518-dc1953850739/go.mod h1:9zyvGMECeiLmcJ+3IszlTiFRqNu/rSmHKuVXbuhZHbc=
@@ -284,6 +286,8 @@ github.com/SebastianJ/harmony-tf v0.0.0-20200302140218-a176b7dd7fdc h1:JmwSmF+aJ
 github.com/SebastianJ/harmony-tf v0.0.0-20200302140218-a176b7dd7fdc/go.mod h1:Y8qr9t+6ZobWeJUuebtptXPjWAdhQ5Pu7/yAeIejEe8=
 github.com/SebastianJ/harmony-tf v0.0.0-20200303041653-fb9043713d98 h1:Fwc4DzOikLWYB0z35z63pbP/knk1aQ+u7lDZ6YmPGLQ=
 github.com/SebastianJ/harmony-tf v0.0.0-20200303041653-fb9043713d98/go.mod h1:I1umoz351LgF+LJovWA58rZjByzVoYClDgDa6eN5hKc=
+github.com/SebastianJ/harmony-tf v0.0.0-20200304030721-a84e33640ba6 h1:0Mfnx0b3dGs5rhhgt362YO4Wce7fniPsedUtglXw9ys=
+github.com/SebastianJ/harmony-tf v0.0.0-20200304030721-a84e33640ba6/go.mod h1:Klu5Aab6ZLdGs5wAdYM/Z2o+ByQN/lnCZf+/kCytimM=
 github.com/Shopify/sarama v1.23.1/go.mod h1:XLH1GYJnLVE0XCr6KdJGVJRTwY30moWNJ4sERjXX6fs=
 github.com/Shopify/toxiproxy v2.1.4+incompatible/go.mod h1:OXgGpZ6Cli1/URJOF1DMxUHB2q5Ap20/P/eIdh4G0pI=
 github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6/go.mod h1:3eOhrUMpNV+6aFIbp5/iudMxNCF27Vw2OZgy4xEx0Fg=
