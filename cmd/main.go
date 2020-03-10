@@ -11,6 +11,7 @@ import (
 	"syscall"
 
 	"github.com/SebastianJ/harmony-tf/config"
+	"github.com/SebastianJ/harmony-tf/logger"
 	"github.com/SebastianJ/harmony-tf/testcases"
 
 	"github.com/urfave/cli"
@@ -33,7 +34,8 @@ func main() {
 
 	err := app.Run(os.Args)
 	if err != nil {
-		fmt.Println("error: " + err.Error())
+		fmt.Println()
+		logger.ErrorLog(err.Error(), true)
 		os.Exit(1)
 	}
 }
